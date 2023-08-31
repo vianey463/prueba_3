@@ -1,0 +1,9 @@
+python
+def factorial(n):
+    if n == 1:
+        return n
+    else:
+        return n * factorial(n-1) # Error: función recursiva sin caso base correcto
+
+result = factorial(5)
+print("El factorial es:", result)
