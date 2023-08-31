@@ -1,0 +1,11 @@
+java
+public class ErrorJava {
+    public static void main(String[] args) {
+        String input = null;
+        try {
+            input.toLowerCase();
+        } catch (NullPointerException ex) {
+            System.out.println("Error: " + ex.getMessage());
+        }
+    }
+}
